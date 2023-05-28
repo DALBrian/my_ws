@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dal/my_ws/src/TCP/build/devel/setup.sh

@@ -55,9 +55,9 @@ TCPConnect::TCPConnect(){
     
 }
 void TCPConnect::checkaccept(){
-// new_fd = accept(sock_fd, (struct sockaddr *)&client_addr, &addrlen);
-//         printf("connected by %s:%d\n", inet_ntoa(client_addr.sin_addr),
-//             ntohs(client_addr.sin_port));
+new_fd = accept(sock_fd, (struct sockaddr *)&client_addr, &addrlen);
+        printf("connected by %s:%d\n", inet_ntoa(client_addr.sin_addr),
+            ntohs(client_addr.sin_port));
     cout<<"Testing function"<<endl;
 }
 void TCPConnect::tcprecv(){

@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dal/ros1_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/dal/ros1_ws/src/IMU360D_F99/include/**",
+        "/home/dal/ros1_ws/src/navigation/amcl/include/**",
+        "/home/dal/ros1_ws/src/navigation/base_local_planner/include/**",
+        "/home/dal/ros1_ws/src/navigation/carrot_planner/include/**",
+        "/home/dal/ros1_ws/src/navigation/clear_costmap_recovery/include/**",
+        "/home/dal/ros1_ws/src/navigation/costmap_2d/include/**",
+        "/home/dal/ros1_ws/src/dal_tf/include/**",
+        "/home/dal/ros1_ws/src/navigation/dwa_local_planner/include/**",
+        "/home/dal/ros1_ws/src/extract_from_rosbag/include/**",
+        "/home/dal/ros1_ws/src/navigation/global_planner/include/**",
+        "/home/dal/ros1_ws/src/hector_slam/src/hector_slam/hector_geotiff/include/**",
+        "/home/dal/ros1_ws/src/hector_slam/src/hector_slam/hector_map_tools/include/**",
+        "/home/dal/ros1_ws/src/hector_slam/src/hector_slam/hector_mapping/include/**",
+        "/home/dal/ros1_ws/src/hector_slam/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/dal/ros1_ws/src/kinematic_compensation/include/**",
+        "/home/dal/ros1_ws/src/navigation/map_server/include/**",
+        "/home/dal/ros1_ws/src/motor_control/include/**",
+        "/home/dal/ros1_ws/src/navigation/move_base/include/**",
+        "/home/dal/ros1_ws/src/navigation/move_slow_and_clear/include/**",
+        "/home/dal/ros1_ws/src/navigation/nav_core/include/**",
+        "/home/dal/ros1_ws/src/navigation/navfn/include/**",
+        "/home/dal/ros1_ws/src/karto_slam/open_karto/include/**",
+        "/home/dal/ros1_ws/src/pepperl_fuchs-master/pepperl_fuchs_r2000/include/**",
+        "/home/dal/ros1_ws/src/pf_lidar_ros_driver/pf_driver/include/**",
+        "/home/dal/ros1_ws/src/robot_setup_tf/include/**",
+        "/home/dal/ros1_ws/src/navigation/rotate_recovery/include/**",
+        "/home/dal/ros1_ws/src/karto_slam/sparse_bundle_adjustment/include/**",
+        "/home/dal/ros1_ws/src/tcp_ros/include/**",
+        "/home/dal/ros1_ws/src/navigation/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

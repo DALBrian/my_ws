@@ -14,8 +14,8 @@ public:
     TCPConnect();
     void tcpsend();
 private:
-    const char* host = "0.0.0.0";
-    int port = 7000;
+    const char* host = "192.168.1.27";
+    int port = 59152;
     
     int sock_fd, new_fd;
     socklen_t addrlen;
