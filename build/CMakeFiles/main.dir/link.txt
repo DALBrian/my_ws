@@ -1,0 +1,1 @@
+/bin/c++    -rdynamic CMakeFiles/main.dir/src/libmodbus_test.cpp.o  -o main  -Wl,-rpath,/usr/local/lib -lMODBUS_INCLUDE_DIR /usr/local/lib/libmodbus.so 

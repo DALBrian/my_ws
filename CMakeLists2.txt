@@ -1,0 +1,10 @@
+project(test)
+find_path(MODBUS_INCLUDE_DIR NAMES modbus.h modbus/modbus.h REQUIRED)
+message(STATUS "MODBUS_INCLUDE_DIR: ${MODBUS_INCLUDE_DIR}")
+
+
+find_library(MODBUS_LIBRARY NAMES modbus REQUIRED)
+message(STATUS "MODBUS_LIBRARY: ${MODBUS_LIBRARY}")
+
+target_link_libraries(${PROJECT_NAME} PRIVATE
+Threads::Threads logging Boost::filesystem ${IOKit_LIB} ${CoreFundation_LIB} ${MODBUS_LIBRARY})

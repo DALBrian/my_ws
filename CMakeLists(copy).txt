@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(test_libmodbus)
+add_executable(test_libmodbus src/libmodbus_test.cpp)
+# find_library(LIBMODBUS libmodbus PATH_SUFFIXES /usr/local/lib)
+target_link_libraries(test_libmodbus /usr/local/lib/libmodbus.so /usr/local/include/modbus/modbus.h) 
+
+include(ExternalProject)
+# ExternalProject_Add(
+#     libmodbus
+#     SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/lib/libmodbus
+#     CONFIGURE_COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/lib/libmodbus/autogen.sh COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/lib/libmodbus/configure --prefix=${CMAKE_CURRENT_BINARY_DIR}/lib/libmodbus
+#     BUILD_COMMAND make install
+#     BUILD_IN_SOURCE 1
+# )
+
+
+
+
+
+
+
+
+# cmake_minimum_required(VERSION 2.8.11)
+# project(myprogram)
+
+# # List your program's sources here explicitly
+# add_executable(myprogram src/foo.cpp src/bar.cpp)
+
+# # Find and link library
+# find_library(MYCUSTOMLIB mycustomlib PATH_SUFFIXES mycustomlib)
+# target_link_libraries(myprogram PUBLIC ${MYCUSTOMLIB})
+
+# # Find library's headers and add it as a search path.
+# # Provide the name of one header file you know should
+# # be present in mycustomlib's include dir.
+# find_path(MCL_HEADER_PATH mycustomlib.h PATH_SUFFIXES mycustomlib)
+# target_include_directories(myprogram PUBLIC ${MCL_HEADER_PATH})
